@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-color: #19a2ae;
+  font-family: kumbh sans;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 359px;
+  height: 450px;
+  margin: 100px auto;
+  border: 1px solid;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top {
+  height: 35%;
+  background-image: url("../images/bg-pattern-card.svg");
+  width: 100%;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.top .profile-pic {
+  position: absolute;
+  border: 1px hidden;
+  border-radius: 50%;
+  bottom: -60px;
+  left: 125px;
+  height: 120px;
+  width: 120px;
+  border: 5px solid white;
+}
+
+.middle {
+  height: 40%;
+}
+
+.text-container {
+  padding: 100px 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  text-align: right;
+  width: 70%;
+  font-size: 18px;
+  letter-spacing: .1em;
+  color: #2d3248;
+}
+
+.age {
+  color: #969696;
+  font-weight: lighter;
+  text-align: center;
+  width: 30%;
+  font-size: 18px;
+}
+
+.location {
+  color: #969696;
+  text-align: center;
+  font-weight: lighter;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  line-height: 3;
+}
+
+.bottom {
+  border-top: 1px dotted #969696;
+  height: 25%;
+}
+
+ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  padding: 5%;
+}
+
+ul h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3248;
+  padding-top: 20px;
+}
+
+ul span {
+  font-size: 60%;
+  font-weight: lighter;
+  letter-spacing: .2em;
+  line-height: 3;
+  color: #969696;
+}
+
+footer {
+  position: fixed;
+  bottom: 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
